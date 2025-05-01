@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#bgimg{
+                     background-image: url(linkedin8.png);
+}

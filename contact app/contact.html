@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+ <style>
+          .xyz{
+            display: flex;
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            justify-content: center;
+          }
+         .section{
+
+              width: 500px;
+              height: 600px;
+              background-color: rgb(109, 109, 128);
+              margin-top: 10px;
+
+
+         }
+         
+         .addsection{
+            width: 500px;
+            height: 600px;
+            background-color: rgb(143, 211, 248);
+            margin-top: 10px;
+         }
+
+
+         .inputstyle{
+            background-color: rgb(255, 255, 255);
+            height: 20px;
+            width: 250px;
+            margin-left: 100px;
+            
+            
+          
+
+
+         }
+
+
+         .list-item{
+         
+            width: 350px;
+            background-color: white;
+            margin: 30px;
+            padding: 7px 14px;
+            font-size: x-large;
+            border-radius: 15px;
+
+            
+         }
+
+
+         .inputsearch{
+            height: 40px;
+            width: 380px;
+            border-radius: 50px;
+          margin-left: 50px;
+            margin-top: 40px;
+         }
+             </style>
+<body>
+   <h1 style="text-align: center;">Contact app</h1>
+   <section class="xyz">
+
+              
+                
+                    <div class="section">
+           
+                      <div>     <input id="search" class="inputsearch" type="text" placeholder="Search"> 
+                              <i style="font-size: x-large;  margin-left: 10px;" onclick="search()" class="fa-solid fa-magnifying-glass"></i>
+                              
+                   </div>
+                    <ol id="listofcontact">
+
+                    </ol>
+                    </div>
+          
+       
+                    <div class="addsection">
+
+
+
+                      <p style="color: blue; font-size: xx-large;text-align: center;"><b>Add New</b></p>
+
+                      <input style="margin-top: 100px;" class="inputstyle" type="text" placeholder="Name" id="name">  <br>
+
+                      <input style="margin-top: 20px;" class="inputstyle" type="text" placeholder="Number" id="contact"> <br>
+
+
+
+                      <button onclick="next()" style="margin-top: 50px; margin-left: 175px; background-color: rgb(114, 114, 218) ; " id="submit">Add Both</button>
+       
+                    </div>
+                
+                    <script src="contact.js"></script>
+    
+
+
+   </section>
+
+
+
+
+</body>
+</html>

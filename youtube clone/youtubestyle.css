@@ -1,0 +1,522 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+
+#contanir{
+   
+    display: flex;
+   
+}
+
+
+
+
+
+#youtubelogoimg{
+   
+   margin-left: 20px;
+   font-size: 50px;
+   height: 60px;
+   width: 100px;
+ 
+}
+
+  
+#bar{
+    margin-top: 16px;
+    font-size: 25px;
+    margin-left: 30px;
+}
+#searchbox{
+    border-radius: 50px 0px 0px 50px;
+     border: solid grey;
+     border-radius: 50px 0px 0px 50px;
+     margin-left: 350px;
+     margin-top: 10px;
+     height: 40px;
+     width: 550px;
+    
+}
+
+#searchcontant{
+    height: 25px;
+    width: 330px;
+    padding: 1px;
+    margin-top: 4px;
+    margin-left: 12px;
+    border: none;
+}
+#search{
+    margin-top: 10px;
+    height: 40px;
+    width: 50px;
+    border: solid grey;
+     border-radius: 0px 50px 50px 0px;
+}
+#searchicon{
+    margin-left: 10px;
+
+    margin-top: 8px;
+}
+#mic{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: whitesmoke;
+   margin-top: 12px;
+   margin-left: 20px;
+}
+#micicon{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+#camera{
+    height: 50px;
+    width: 50px;
+    margin-top: 25px;
+    margin-left: 170px;
+   font-size: 20px;
+   
+
+}
+#bell{
+    margin-top: 28px;
+    margin-left: 0px;
+}
+#account{
+    background-color: blueviolet;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+#all{
+    height: 30px;
+    width: 60px;
+    background-color: black;
+    border-radius: 20%;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 310px;
+}
+#allcontant{
+    margin-top: 7px;
+    margin-left: 15px;
+    color: white;  
+}
+
+
+#musiccontant{
+  margin-top: 7px;
+  margin-left:10px;
+  color:black;
+}
+
+
+#music{
+    height: 30px;
+    width: 60px;
+    background-color: whitesmoke;
+    border-radius: 20%;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 390px;
+}
+
+#html{
+    height: 30px;
+    width: 60px;
+    background-color: whitesmoke;
+    border-radius: 20%;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 480px;
+}
+
+
+#htmlcontant{
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+
+#tmkc{
+   height: 30px;
+   width: 230px;
+   background-color: whitesmoke;
+   border-radius: 20%;
+   position: absolute;
+   margin-top: 70px;
+   margin-left: 570px;
+
+}
+#tmkccontant{
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+#LIVE{
+            height: 30PX;
+            width: 60PX;
+            background-color: whitesmoke;
+            border-radius: 20%;
+            position: absolute;
+            margin-top: 70px;
+            margin-left: 830px;
+}
+#LIVECONTANT{
+    margin-top: 7px;
+    margin-left: 17px;
+}
+
+
+#tseries{
+    height: 30px;
+    width: 80px;
+    background-color: whitesmoke;
+    position: absolute;
+    border-radius: 20%;
+    margin-top: 70px;
+    margin-left: 910px;
+}
+
+#teseriescontant{
+    margin-top: 7px;
+    margin-left: 15px;
+}
+
+
+#gamimng{
+    height: 30px;
+    width: 70px;
+    background-color: whitesmoke;
+    position: absolute;
+    border-radius: 20%;
+    margin-top: 70px;
+    margin-left: 1010px;
+}
+
+
+#gamimngcontant{
+    margin-top: 7px;
+    margin-left: 10px;
+
+}
+
+#bollywoodmusic{
+    height: 30px;
+    width: 150px;
+    position: absolute;
+    background-color: whitesmoke;
+    border-radius: 20%;
+    margin-top: 70px;
+    margin-left: 1100px;
+}
+
+#bollywoodmusiccontant{
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+#news{
+    height: 30px;
+    width: 60px;
+    background-color: whitesmoke;
+    position: absolute;
+    border-radius: 20%;
+    margin-top: 70px;
+    margin-left: 1270px;
+}
+
+#newscontant{
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+
+
+
+
+#action{
+    height: 30px;
+    width: 110px;
+    background-color: whitesmoke;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 1350px;
+    border-radius: 20%;
+}
+
+#actioncontant{
+          margin-top: 7px;
+          margin-left: 10px;
+}
+
+
+
+#header{
+    width: 100%;
+    background-color: white;
+   height: 110px;
+    display: flex;
+    position: fixed;
+}
+#sidebar{
+    width: 20%;
+    height: 100vh;
+    overflow-y: auto;
+    margin-top: 105px;
+    overflow: hidden;
+    position: fixed;
+ 
+    
+   
+}
+
+#sidebar:hover{
+   overflow-y: auto;
+}
+
+
+#viewbar{
+    width: 80%;
+    margin-top: 80px;
+    padding: 30px;
+    display: flex;
+    margin-left: 290px;
+
+}
+
+.sidebaricon{
+    margin-top: 15px;
+    margin-left: 30px;
+    display: flex;
+    font-size: 20px;
+   
+}
+.sidebarcontant{
+       margin-left: 30px;
+}
+.sidebarimg{
+    height: 30px;
+    width: 30px;
+}
+
+
+.LINE{
+    margin-top: 20px;
+}
+
+.XYZ{
+    margin: 10px;
+    margin-left:15px;
+}
+
+
+#tmkocimg{
+    height: 200px;
+    width: 350px;
+    margin-top: 30px;
+    border-radius: 5%;
+}
+#sonylogo{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-top: 5px;
+}
+
+#a{
+    display: flex;
+}
+
+#aa{
+    margin-top: 8px;
+    margin-left: 13px;
+}
+
+#aaa{
+    margin-top: 3px;
+    margin-left: 45px;
+    color: grey;
+}
+
+
+
+#sorovimg{
+    height: 200px;
+    width: 350px;
+    margin-top: 30px;
+    border-radius: 5%;
+    margin-left: 40px;
+}
+
+#voilalogo{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+
+#b{
+    display: flex;
+}
+
+#bb{
+    margin-top: 8px;
+    margin-left: 13px;
+}
+
+#bbb{
+    margin-top: 3px;
+    margin-left: 85px;
+    color: grey;
+
+}
+
+
+
+#apnacollageimg{
+    height: 200px;
+    width: 350px;
+    margin-top: 30px;
+    border-radius: 5%;
+    margin-left: 40px;
+}
+
+#apnalogo{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+
+#c{
+    display: flex;
+}
+
+#cc{
+    margin-top: 8px;
+    margin-left: 13px;
+}
+
+#ccc{
+    margin-top: 3px;
+    margin-left: 85px;
+    color: grey;
+
+}
+
+
+#totalgamingimg{
+    height: 200px;
+    width: 350px;
+    margin-top: 30px;
+    border-radius: 5%;
+    
+  
+   
+}
+
+#totalgaminglogo{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+   
+}
+
+
+#d{
+    display: flex;
+}
+
+#dd{
+    margin-top: 8px;
+    margin-left: 13px;
+}
+
+#ddd{
+    margin-top: 3px;
+    margin-left: 40px;
+    color: grey;
+
+}
+
+#total{
+    position: absolute;
+    margin-top: 300px;
+}
+
+
+
+
+
+#Bottley{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 350px;
+}
+
+
+#bottleyimg{
+    height: 200px;
+    width: 350px;
+   
+    border-radius: 5%;
+    margin-left: 40px;
+}
+
+#tserieslogo{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+
+#e{
+    display: flex;
+}
+
+#ee{
+    margin-top: 8px;
+    margin-left: 13px;
+}
+
+#eee{
+    margin-top: 3px;
+    margin-left: 85px;
+    color: grey;
+
+}
+
+
+
+
+
+#kj{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 740px;
+}
+
+
+
+#kejriwalimg{
+    height: 200px;
+    width: 350px;
+   
+    border-radius: 5%;
+    margin-left: 40px;
+}
+

@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#contanair{
+    display:flex;
+    height: 100vh;
+}
+#viewbar{
+    display: flex;
+    background-color: rgb(31, 32, 34);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    width: 75%;
+
+}
+#sidebar{
+    width: 30%;
+    background-color: black;
+}
+
+h5{
+    text-align: center;
+     align-items: center;
+    display: flex;
+}
+#profile{
+    background-color: rgb(32, 29, 29);
+    height: 45px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    color: white;
+    list-style: none;
+    margin-left: 0px;
+   padding: 0px;
+   overflow-y:auto;
+   height: 83%;
+   overflow: hidden;
+
+
+}
+ul:hover{
+    overflow-y: auto;
+}
+#search{
+    background-color: rgb(32, 29, 29);
+    height: 30px;
+    width:89% ;
+    margin-top: 5px;
+    color: white;
+    margin-left: 10px;
+   padding-right: 15px;
+   box-shadow: 200, 100,100 white;
+   
+   
+}
+#searchicon{
+    width: 100px;
+    margin-top: 10px;
+    font-size: 20px;
+  
+}
+
+
+
+li{
+    border-bottom: solid thin grey;
+    padding: 10px 20px;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   
+   
+
+  
+}
+.li-first-part{
+    display: flex;
+    align-items: center;
+
+}
+.text-gray{
+    color: grey;
+}
+.profile-pic{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+#viewbarimg{
+    height: 300px;
+    width: 400px;
+    
+}
+
+
+
+#viewbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.profileicon{
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+
+    
+
+
+
+
+
+
